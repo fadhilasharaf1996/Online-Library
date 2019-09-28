@@ -1,0 +1,74 @@
+*{
+padding: 0;
+margin: 0;
+font-family: 'Raleway', sans-serif;
+font-size: 12px;
+}
+body {
+    text-align: center;
+    color: black;
+}
+a {
+    font-weight: bold;
+}
+.banner {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+.banner h1{
+  font-size: 40px;
+  padding-top: 70px;
+}
+.conatiner{
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  margin-top: 10px;
+
+}
+.example_c1 {
+    color: #9a3a07 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 60px;
+    border: 2px solid #9a3a07 !important;
+    display: inline-block;
+    z-index: 99;
+    border-radius: 42px;
+    position: relative;
+}
+.button_cont1{
+  float: left;
+  margin: 0;
+  width: 33%;
+}
+.button_cont1 a{
+  font-size: 19.44px;
+  line-height: 60.77px;
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 300;
+  padding-left: 40px;
+  padding-right: 40px;
+  z-index: 99;
+  position: relative;
+  float: left;
+}
+.button_cont2 a{
+  font-size: 19.44px;
+  line-height: 60.77px;
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 300;
+  padding-left: 40px;
+  padding-right: 40px;
+  z-index: 99;
+  position: relative;
+  float: left;
+}
+.example_c1:hover {
+color: #3b3b38  !important;
+background: #DCDCDC;
+border-color: #3b3b38  !important;
+transition: all 0.4s ease 0s;
+
+}
